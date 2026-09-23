@@ -1,0 +1,47 @@
+<libraries>
+  <library
+      name=":@@:battle-engine-android::debug"
+      jars="/home/codex/.gradle/caches/8.11.1/transforms/b5043b87f03c6c7a74fe840b006d1842/transformed/out/jars/classes.jar:/home/codex/.gradle/caches/8.11.1/transforms/b5043b87f03c6c7a74fe840b006d1842/transformed/out/jars/libs/R.jar"
+      resolved="My Application:battle-engine-android:unspecified"
+      folder="/home/codex/.gradle/caches/8.11.1/transforms/b5043b87f03c6c7a74fe840b006d1842/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.fasterxml.jackson.core:jackson-databind:2.17.0@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.17.0/7173e9e1d4bc6d7ca03bc4eeedcd548b8b580b34/jackson-databind-2.17.0.jar"
+      resolved="com.fasterxml.jackson.core:jackson-databind:2.17.0"/>
+  <library
+      name="com.fasterxml.jackson.core:jackson-annotations:2.17.0@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.0/880a742337010da4c851f843d8cac150e22dff9f/jackson-annotations-2.17.0.jar"
+      resolved="com.fasterxml.jackson.core:jackson-annotations:2.17.0"/>
+  <library
+      name="com.fasterxml.jackson.core:jackson-core:2.17.0@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.0/a6e5058ef9720623c517252d17162f845306ff3a/jackson-core-2.17.0.jar"
+      resolved="com.fasterxml.jackson.core:jackson-core:2.17.0"/>
+  <library
+      name="com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.17.0/665dffdbf9ab92e7cf356621ba8df332048caa3a/jackson-module-kotlin-2.17.0.jar"
+      resolved="com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-reflect:1.7.22@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.7.22/e61a16c5c838d324529a6aa72dfb88ea98958a29/kotlin-reflect-1.7.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-reflect:1.7.22"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib:2.0.21@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.0.21/618b539767b4899b4660a83006e052b63f1db551/kotlin-stdlib-2.0.21.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:2.0.21"/>
+  <library
+      name="org.jetbrains:annotations:13.0@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+      resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="net.bytebuddy:byte-buddy:1.14.9@jar"
+      jars="/home/codex/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.9/b69e7fff6c473d3ed2b489cdfd673a091fd94226/byte-buddy-1.14.9.jar"
+      resolved="net.bytebuddy:byte-buddy:1.14.9"/>
+</libraries>

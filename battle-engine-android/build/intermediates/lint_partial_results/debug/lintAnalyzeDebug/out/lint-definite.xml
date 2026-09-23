@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.1" type="incidents">
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for jackson-module-kotlin"
+            robot="true">
+            <fix-replace
+                description="Replace with jacksonModuleKotlin = &quot;2.17.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jacksonModuleKotlin = &quot;2.17.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/projects/stzb_assitant/android/gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with jackson-module-kotlin = { module = &quot;com.fasterxml.jackson.module:jackson-module-kotlin&quot;, version.ref = &quot;jacksonModuleKotlin&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jackson-module-kotlin = { module = &quot;com.fasterxml.jackson.module:jackson-module-kotlin&quot;, version.ref = &quot;jacksonModuleKotlin&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/projects/stzb_assitant/android/gradle/libs.versions.toml"
+                    startOffset="454"
+                    endOffset="454"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.jackson.module.kotlin"
+                robot="true"
+                replacement="libs.jackson.module.kotlin"
+                priority="0">
+                <range
+                    file="${:battle-engine-android*projectDir}/build.gradle.kts"
+                    startOffset="439"
+                    endOffset="498"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:battle-engine-android*projectDir}/build.gradle.kts"
+            line="26"
+            column="20"
+            startOffset="439"
+            endLine="26"
+            endColumn="79"
+            endOffset="498"/>
+    </incident>
+
+</incidents>

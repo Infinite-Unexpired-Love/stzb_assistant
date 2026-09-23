@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/codex/projects/stzb_assitant/android/battle-engine-android"
+    name=":battle-engine-android"
+    type="LIBRARY"
+    maven="My Application:battle-engine-android:unspecified"
+    agpVersion="8.9.1"
+    buildFolder="build"
+    bootClassPath="/home/codex/Android/Sdk/platforms/android-35/android.jar:/home/codex/Android/Sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

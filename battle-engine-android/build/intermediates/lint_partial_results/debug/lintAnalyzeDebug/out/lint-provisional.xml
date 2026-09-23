@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.1" type="conditional_incidents">
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/battle/BattleEquipmentRepository.kt"
+            line="171"
+            column="28"
+            startOffset="7438"
+            endLine="171"
+            endColumn="30"
+            endOffset="7440"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/battle/BattleEquipmentRepository.kt"
+            line="172"
+            column="37"
+            startOffset="7510"
+            endLine="172"
+            endColumn="39"
+            endOffset="7512"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/battle/BattleEquipmentRepository.kt"
+            line="208"
+            column="28"
+            startOffset="8725"
+            endLine="208"
+            endColumn="30"
+            endOffset="8727"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/battle/BattleEquipmentRepository.kt"
+            line="223"
+            column="18"
+            startOffset="9305"
+            endLine="223"
+            endColumn="20"
+            endOffset="9307"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/battle/BattleEquipmentRepository.kt"
+            line="224"
+            column="18"
+            startOffset="9340"
+            endLine="224"
+            endColumn="20"
+            endOffset="9342"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="76"
+            column="28"
+            startOffset="2738"
+            endLine="76"
+            endColumn="30"
+            endOffset="2740"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="77"
+            column="37"
+            startOffset="2810"
+            endLine="77"
+            endColumn="39"
+            endOffset="2812"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="179"
+            column="28"
+            startOffset="6891"
+            endLine="179"
+            endColumn="30"
+            endOffset="6893"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="180"
+            column="37"
+            startOffset="6963"
+            endLine="180"
+            endColumn="39"
+            endOffset="6965"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="246"
+            column="48"
+            startOffset="9577"
+            endLine="246"
+            endColumn="50"
+            endOffset="9579"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="31-∞" requiresApi="34-∞"/>
+        <location
+            file="${:battle-engine-android*debug*MAIN*sourceProvider*0*javaDir*2}/com/stzb/server/game/ClientNpcArmyRepository.kt"
+            line="321"
+            column="28"
+            startOffset="12644"
+            endLine="321"
+            endColumn="30"
+            endOffset="12646"/>
+        <map>
+            <entry
+                name="desc"
+                string="(Ljava.lang.String;[Ljava.lang.String;)"/>
+            <entry
+                name="message"
+                string="Call requires API level 34 (current min is %1$s): `java.nio.file.Path#of`"/>
+            <api-levels id="minSdk"
+                value="31-∞"/>
+            <entry
+                name="name"
+                string="of"/>
+            <entry
+                name="owner"
+                string="java.nio.file.Path"/>
+            <api-levels id="requiresApi"
+                value="34-∞"/>
+        </map>
+    </incident>
+
+</incidents>
